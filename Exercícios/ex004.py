@@ -1,0 +1,11 @@
+print('{} {} {}\n'.format(('>'*10), 'EX 04', ('<'*10)))
+coisa = input('\033[7;40mDigite algo:\033[m  ')
+
+print('>> Tipo: {}'.format(type(coisa)))
+print('>> É alfabético: {}'.format(coisa.isalpha()))
+print('>> É númerico: {}'.format(coisa.isnumeric()))
+print('>> É é alfanumérico: {}'.format(coisa.isalnum()))
+print('>> É está em caixa alta: {}'.format(coisa.isupper()))
+print('>> É está em caixa baixa: {}'.format(coisa.islower()))
+print('>> Está capitalizada: {}'.format(coisa.istitle()))
+print('>> É espaço: {}'.format(coisa.isspace()))

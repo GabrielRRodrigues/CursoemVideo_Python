@@ -2,13 +2,24 @@
  Fundamentos Python
  
  *Curso em Vídeo*
- Mundo _01_: 
-     1.Introdução
-     2.Primeiros passos c/ Python
-     3.Tratamento de dados e valores
-     4.Módulos do Python
-     5. Condicionais
-     6.Cores
+* Mundo 01 (_ex 1 - 35_):
+   * Introdução
+   * Primeiros passos c/ Python
+   * Tratamento de dados e valores
+   * Módulos do Python
+   * Condicionais simples
+   * Cores
 
- Mundo _02_: 
- Mundo _03_: Tuplas; Listas; Dicionários; Funções; Modularização; Tratamento de erros
+* Mundo 02 (_ex 36 - 70_):
+   * Condicionais Aninhadas
+   * Repetições
+      * For
+      * While
+   
+* Mundo 03 (_ex 72 - 115_):
+   * Tuplas
+   * Listas
+   * Dicionários 
+   * Funções
+   * Modularização
+   * Tratamento de erros

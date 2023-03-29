@@ -17,9 +17,10 @@
       * While
    
 * Mundo 03 (_ex 72 - 115_):
-   * Tuplas
-   * Listas
-   * Dicionários 
+   * Variáveis Compostas
+      * Tuplas
+      * Listas
+      * Dicionários 
    * Funções
    * Modularização
    * Tratamento de erros

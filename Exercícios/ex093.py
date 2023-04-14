@@ -13,7 +13,7 @@ jogador = {'Nome': str(input('Nome: ')).title(),
 
 partidas = int(input('Partidas jogadas: '))
 for i in range(1, partidas + 1):
-    jogador['Gols'].append(int(input(f'Gols no {i}ºjogo: ')))
+    jogador['Gols'].append(int(input(f'   Gols no {i}ºjogo: ')))
 
 total = 0
 for a in range(0, partidas):
@@ -26,12 +26,12 @@ print(jogador)
 
 
 print('-' * 30)
-for chave, valor in jogador.items():
-    print(f'O campo "{chave}" tem o valor "{valor}"')
+for k, v in jogador.items():
+    print(f'O campo "{k}" tem o valor "{v}"')
 
 
 print('-' * 30)
-print(f'O jogador {jogador["Nome"]} jogou {partidas} partidas:')
+print(f'O jogador {jogador["Nome"]} jogou {len(jogador["Gols"])} partidas:')
 for pos, c in enumerate(jogador['Gols']):
     print(f'  → Na {pos+1}ª partida: {c:2} gol(s)')
 print(f'Foi um total de {jogador["total"]} gols.')

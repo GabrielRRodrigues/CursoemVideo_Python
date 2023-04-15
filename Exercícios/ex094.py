@@ -21,7 +21,7 @@ while True:
     dados['nome'] = str(input('Nome: ')).title()
 
     while True:
-        dados['sexo'] = str(input('Sexo [M/F]: ')).title()[0]
+        dados['sexo'] = str(input('Sexo [M/F]: ')).upper()[0]
         if dados['sexo'] in 'FM':
             break
         print('ERRO!! Por favor, responda M ou F.')
@@ -36,7 +36,7 @@ while True:
     dados.clear()
 
     while True:
-        resp = str(input('Mais alguém? [S/N] → ')).title()[0]
+        resp = str(input('Mais alguém? [S/N] → ')).upper()[0]
         if resp in 'SsNn':
             print('-' * 35)
             break

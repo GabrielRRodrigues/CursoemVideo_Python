@@ -46,7 +46,7 @@ while True:
 
 media = media/len(pessoas)
 
-print(f'Foram cadastradas: {len(pessoas)} pessoas'
-      f'\nMédia de idades: {media:.2f} anos'
-      f'\nMulheres: {", ".join(mulheres)}'
-      f'\nPessoas acima da média: {", ".join([pessoa["nome"] for pessoa in pessoas if pessoa["idade"] > media])}')
+print(f'A) Foram cadastradas: {len(pessoas)} pessoa(s)'
+      f'\nB) Média de idades: {media:.2f} anos'
+      f'\nC) Mulheres: {", ".join(mulheres)}'
+      f'\nD) Pessoas acima da média: {", ".join([pessoa["nome"] for pessoa in pessoas if pessoa["idade"] > media])}')

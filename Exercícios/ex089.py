@@ -12,17 +12,16 @@ boletim = []
 aluno = []
 
 while True:
+    nome = str(input('Aluno: ')).title()
+    aluno.append(nome)
+    for i in range(1, 3):
+        nota = float(input(f'Nota {i}: '))
+        aluno.append(nota)
+    aluno.append((aluno[1]+aluno[2])/2)
+
+    boletim.append(aluno[:])
+    aluno.clear()
     while True:
-        nome = str(input('Aluno: ')).title()
-        aluno.append(nome)
-        for i in range(1, 3):
-            nota = float(input(f'Nota {i}: '))
-            aluno.append(nota)
-        aluno.append((aluno[1]+aluno[2])/2)
-
-        boletim.append(aluno[:])
-        aluno.clear()
-
         resp = str(input('Falta algum aluno? [S/N] → '))[0]
         if resp in 'SsNn':
             break

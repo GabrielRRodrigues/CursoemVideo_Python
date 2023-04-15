@@ -7,10 +7,8 @@ init()
 print('{}{}{:↔^40}{}{}\n'.format(Back.WHITE, Fore.BLACK, ' EX 90 ', Fore.RESET, Back.RESET))
 print('{}{}{:×^40}{}{}\n'.format(Back.CYAN, Fore.BLACK, ' DICIONÁRIO EM PYTHON ', Fore.RESET, Back.RESET))
 
-aluno = {}
+aluno = {'Nome': str(input('Nome: ')).title(), 'Média': float(input('Média: '))}
 
-aluno['Nome'] = str(input('Nome: ')).title()
-aluno['Média'] = float(input('Média: '))
 aluno['Situação'] = ('Aprovado' if aluno['Média'] >= 7 else ('Recuperação' if aluno['Média'] >= 5 else 'Reprovado'))
 
 print('-'*30)

@@ -17,7 +17,7 @@ def maior(* num):
         print(f'Analisando o(s) valore(s) passado(s)...', end=' ')
         for i in num:
             print(i, end=' ')
-            # sleep(0.3)
+            sleep(0.5)
         print(f'\n{"0" if not num else len(num)} valor(es) informado(s) ao todo.'
               f'\nO maior valor informado foi {max(num)}')
 

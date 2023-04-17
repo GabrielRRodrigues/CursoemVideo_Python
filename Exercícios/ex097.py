@@ -5,7 +5,7 @@ from colorama import init, Fore, Back
 
 init()
 print('{}{}{:↔^40}{}{}\n'.format(Back.WHITE, Fore.BLACK, ' EX 97 ', Fore.RESET, Back.RESET))
-print('{}{}{:×^40}{}{}\n'.format(Back.MAGENTA, Fore.BLACK, ' FUNÇÃO QUE CALCULA ÁREA ', Fore.RESET, Back.RESET))
+print('{}{}{:×^40}{}{}\n'.format(Back.MAGENTA, Fore.BLACK, ' UM PRINT ESPECIAL ', Fore.RESET, Back.RESET))
 
 
 def escreva(txt):

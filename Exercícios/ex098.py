@@ -26,7 +26,7 @@ def contador(i, f, p):
 
     for j in range(i, f + 1, p):
         print(j, end=' ')
-        # sleep(0.3)
+        sleep(0.3)
     print('FIM!!')
     print(f'{"=" * 35}')
 

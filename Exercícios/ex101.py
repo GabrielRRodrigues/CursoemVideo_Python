@@ -7,7 +7,7 @@ from datetime import datetime
 
 init()
 print('{}{}{:↔^40}{}{}\n'.format(Back.WHITE, Fore.BLACK, ' EX 101 ', Fore.RESET, Back.RESET))
-print('{}{}{:×^40}{}{}\n'.format(Back.GREEN, Fore.BLACK, '  ', Fore.RESET, Back.RESET))
+print('{}{}{:×^40}{}{}\n'.format(Back.GREEN, Fore.BLACK, ' FUNÇÕES PARA VOTAÇÃO ', Fore.RESET, Back.RESET))
 
 
 def voto(ano):

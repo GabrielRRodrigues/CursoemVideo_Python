@@ -9,7 +9,7 @@ print('{}{}{:↔^40}{}{}\n'.format(Back.WHITE, Fore.BLACK, ' EX 103 ', Fore.RESE
 print('{}{}{:×^40}{}{}\n'.format(Back.GREEN, Fore.BLACK, ' FICHA DO JOGADOR ', Fore.RESET, Back.RESET))
 
 
-def ficha(nome = '<Descon>', gol = 0):
+def ficha(nome = '<Desconhecido>', gol = 0):
     print(f'O jogador {nome} fez {gol} gol(s) no campeonato.')
 
 
